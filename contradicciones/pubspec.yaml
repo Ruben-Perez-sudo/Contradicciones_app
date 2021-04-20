@@ -1,0 +1,52 @@
+name: contradicciones
+description: Aplicación profesional contra las adicciones.
+
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  convex_bottom_bar: ^2.7.1
+  splash_screen_view: ^1.0.1
+  flutter_login: ^1.0.14
+  qrscan: ^0.2.22
+  http: ^0.12.2
+  webfeed: ^0.4.2
+  xml_parser: ^0.1.2
+  user_profile_avatar: ^0.0.9
+  image_picker: ^0.6.7+22
+  permission_handler: ^5.1.0+2
+  image_gallery_saver: ^1.6.8
+  webview_flutter: ^0.3.0
+  cupertino_icons: ^1.0.0
+  google_maps_flutter: ^0.4.0
+  font_awesome_flutter: ^8.2.0
+  material_floating_search_bar: ^0.2.6
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_launcher_icons: ^0.7.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/Contradicc.png"
+
+flutter:
+  assets:
+    - assets/Contradicc.png
+    - assets/fondo.jpg
+    - assets/scann.png
+    - assets/generar_qr.jpg
+    - assets/guardar_qr.png
+
+  uses-material-design: true
